@@ -1,0 +1,196 @@
+body {
+    background-image: url(https://wallpaperswide.com/download/naruto_34-wallpaper-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem 50rem;
+}
+
+/* positioning images  *************************************************** */
+
+img {
+    max-height: 80%;
+    max-width: 100%;
+    box-shadow: -5px 5px  15px 5px rgb(126, 126, 126);
+    
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 33%;
+}
+
+section {
+    margin-left: 9vw;
+    display: flex; 
+}
+
+/* positioning images end ******************************** */
+
+/* Title ************************************************* */
+
+h1 {
+    font-weight: 900;
+    font-size: 53px;
+    text-align: center;
+    color: orange;
+    border-bottom: 3px solid orange;
+    margin: 2% 25%;
+}
+
+.fighter{
+    display: flex;
+}
+
+.ninja {
+    display: flex;
+    flex-wrap: wrap;
+    width: 59%;
+}
+
+/* postioning*************************************** */
+
+#naruto:hover {
+    box-shadow: -5px -5px 55px 20px orange;
+    max-height: 85%;
+}
+#sauske:hover {
+    box-shadow: -5px -5px 55px 20px purple;
+    max-height: 85%;
+}
+
+#kakashi:hover {
+    box-shadow: -5px -5px 55px 20px rgb(255, 253, 255);
+    max-height: 85%;
+}
+
+#minato:hover {
+    box-shadow: -5px 5px 55px 20px yellow;
+    max-height: 85%;
+}
+
+#madara:hover {
+    box-shadow: -5px 5px 55px 20px red;
+    max-height: 85%;
+}
+
+#itatchi:hover {
+    box-shadow: -5px 5px 55px 20px rgb(216, 32, 216);
+    max-height: 85%;
+}
+
+button {
+    display: flex;
+    height: 5vh;
+    border: none;
+    background-color: red;
+    font-weight: 800;
+    border-radius: 50px;
+    width: 8vw;
+    box-shadow: 5px 5px 5px;
+    margin-left: 20vw;
+    padding-top:7px;
+    padding-left:10px;
+}
+
+button:hover {
+    height: 5vh;
+    border: none;
+    background-color: orange;
+    font-weight: 800;
+    border-radius: 50px;
+    width: 7.8vw;
+    box-shadow: 5px 5px 5px;
+}
+
+
+@media (min-width:320px) and (max-width: 768px ){
+    body {
+        background-image: url('https://wallpapers.com/images/featured/team-7-naruto-iphone-otxlu1ysihdaelqm.jpg');
+        background-size: cover;
+    }
+
+    button {
+        height: 8vh;
+        width: 30vw;
+        margin-left: 20vw;
+        padding-top:7px;
+        padding-left:15px;
+        margin-top: 0;
+    }
+
+    button:hover {
+        height: 7.6vh;
+        width: 30vw;
+        margin-left: 20vw;
+        padding-top:7px;
+        padding-left:15px;
+        margin-top: 0;
+        background-color: orange;
+    }
+    
+    h1 {
+        font-size: 33px;
+        margin:8% 5%;
+    }
+
+    .ninja {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    section {
+        margin-top: 3vh;
+        display: flex; 
+    }
+    span {
+        font-size: 13px;
+    }
+    .fighter{
+        margin: 0;
+    }
+
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    body {
+        background-image: url('https://wallpapers.com/images/featured/team-7-naruto-iphone-otxlu1ysihdaelqm.jpg');
+        background-size: cover;
+    }
+    button {
+        height: 7.6vh;
+        width: 30vw;
+        margin-left: 23vw;
+        padding-top:6px;
+        margin-top: 0;
+    }
+    button:hover {
+        height: 7vh;
+        width: 30vw;
+        margin-left: 23vw;
+        padding-top:6px;
+        margin-top: 0;
+        background-color: orange;
+    }
+
+    .fighter{
+        margin: 0;
+    }
+}
+
+@media (min-width:425px) and (max-width:625px) {
+
+    button {
+        padding-top:13px;
+        height: 6vh;
+        width: 24vw;
+        margin-left: 30vw;
+    }
+    button:hover {
+        height: 5.7vh;
+        padding-top:13px;
+        width: 24vw;
+        margin-left: 30vw;
+        background-color: orange;
+    }
+}
